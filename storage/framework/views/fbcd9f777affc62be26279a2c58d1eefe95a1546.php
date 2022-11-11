@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,21 +8,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo e(asset('assets')); ?>/css/style.css">
 </head>
 <body>
-    <header>
-        <?php echo $__env->yieldContent('header'); ?>
-            <img src="<?php echo e(asset ('images')); ?>/logopunyabarang.png" class="logo">
-                <nav>
-                    <ul class="nav_links">
-                    <li><a href="home">Home</a></li>
-                    <li><a href="laptop">Laptop</a></li>
-                    <li><a href="gambar.html">Iphone</a></li>
-                    <li><a href="#">Android</a></li>
-                    <li><a href="table.html">Smart TV</a></li>
-                    </ul>
-                </nav>
-        <img src="<?php echo e(asset ('images')); ?>/iconsearch.png" width="28px" height="28px" style="margin-left: 370px;">
-        <img src="<?php echo e(asset ('images')); ?>/iconcart.png" width="33px" height="33px" style="margin-left: 0px; ">
-    </header>
+    <?php echo $__env->make('partials.navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
    <hr>
    <div class="fotohome">
    <img src="<?php echo e(asset ('images')); ?>/fotohome1.png" width="1400px" height="550px">

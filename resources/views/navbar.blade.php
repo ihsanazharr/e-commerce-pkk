@@ -1,4 +1,5 @@
 <header>
+    @yield('header')
         <img src="{{ asset ('images') }}/logopunyabarang.png" class="logo">
             <nav>
                 <ul class="nav_links">

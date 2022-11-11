@@ -60,7 +60,8 @@ header{
     align-items: center;
 }
 .containerbody{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    color: black;
     width: 100%;
     height: fit-content;
 }
@@ -84,6 +85,18 @@ header{
     height: 450px;
     margin-bottom: 30px;
   }
+  .card-laptop{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    width: 300px;
+    background-color: #e3e3e3;
+    margin-left: 37px;
+    float: left;
+    border-radius: 30px;
+    text-align: center;
+    font-family: arial;
+    height: 400px;
+    margin-bottom: 10px;
+  }
   
   .price {
     color: grey;
@@ -91,6 +104,18 @@ header{
   }
   
   .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(223, 67, 10);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .card-laptop button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -126,4 +151,18 @@ header{
   footer{
     background-color: black;
     padding: 35px;
+  }
+
+  .page-title{
+    color: black;
+    font-size: 24px;
+    font-family: "Font PoppinsSB";
+    padding-left: 50px;
+    padding-top: 25px;
+  }
+  .capt-page-title{
+    color: black;
+    font-size: 16px;
+    font-family: "Font PoppinsReg";
+    padding-left: 50px;
   }

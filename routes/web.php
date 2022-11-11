@@ -20,5 +20,8 @@ Route::get('/home', function () {
     return view('home');
 });
 Route::get('/laptop', function () {
-    return view('layouts.laptop');
+    return view('laptop');
+});
+Route::get('/index', function () {
+    return view('index');
 });
