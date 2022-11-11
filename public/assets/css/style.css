@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Font PoppinsReg";
+}
+
+@font-face {
+    font-family: "Font PoppinsSB";
+    src: url('../font/poppins_semibold.otf');
+}
+@font-face {
+    font-family: "Font PoppinsReg";
+    src: url('../font/poppins_regular.otf');
+}
+
+header{
+    display:flex;
+    justify-content: space-between;       
+    align-items: center;
+    padding: 10px 40px;
+}
+.nav_links li{
+    display: inline-block;
+    padding:0px 20px;
+    list-style: none;
+    align-items: center;
+    
+}
+.nav_links li:nth-child(1){
+    padding:0px 20px 0px 50px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color:rgb(0, 0, 0); 
+    text-decoration:none;
+    font-family: "Font PoppinsSB";
+}
+
+.nav_links li a:hover{
+    color:#0088a9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.active{
+  text-decoration: underline;
+  color: blue;
+}
+
+.icon{
+    margin-left: 250px;
+    margin-top:10px;
+}
+.logo{    
+    width: 175px;
+    height: auto;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    align-items: center;
+}
+.containerbody{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+}
+.h1{
+    font-family: "Font PoppinsSB";
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    width: 300px;
+    background-color: #FFFFFF;
+    margin-left: 37px;
+    float: left;
+    border-radius: 30px;
+    text-align: center;
+    font-family: arial;
+    height: 450px;
+    margin-bottom: 30px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 16px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(223, 67, 10);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  section{
+    background-color: #FFFFFF;
+    padding: 35px;
+  }
+  h1{
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+  h2{
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+  p{
+    margin-top: 20px;
+    column-count: 1;
+    max-width: 600px;
+  }
+  footer{
+    background-color: black;
+    padding: 35px;
+  }
